@@ -52,5 +52,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, ()=> {
-  console.log(`App listeing on port ${port}`)
+  console.log(`Server is runing at http://localhost:${port}`)
 });
